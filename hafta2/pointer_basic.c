@@ -6,7 +6,7 @@ void update(int *p) {
 
 int main() {
     int num = 5;
-    update(&num); // num'un adresini gönderiyoruz
-    printf("%d", num); // Çıktı: 10
+    update(&num);
+    printf("%d", num);
     return 0;
 }
