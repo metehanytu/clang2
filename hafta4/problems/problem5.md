@@ -7,13 +7,12 @@ Write a C program that:
 - Prints the sequence step by step until it reaches `1`.
 
 ## **Collatz Conjecture Definition**
-The Collatz sequence is defined as follows:
+The Collatz sequence is defined by the following rules:
 
-\[ C(n) = \begin{cases} 
-    1, & \text{if } n = 1 \\
-    C(n/2), & \text{if } n \text{ is even} \\
-    C(3n + 1), & \text{if } n \text{ is odd}
-  \end{cases} \]
+ - If n = 1, stop.
+ - If n is even, set the new value to n / 2.
+ - If n is odd, set the new value to 3n + 1.
+ - Repeat this process until n = 1.
 
 The process repeats until `n = 1` is reached.
 
