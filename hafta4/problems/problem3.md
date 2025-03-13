@@ -2,7 +2,7 @@
 
 ## **Problem Statement**
 Write a C program that:
-- Takes a string input from the user (e.g., "hello world recursion").
+- Takes a string input from the user (e.g., "hello world").
 - Uses `calloc()` to dynamically allocate memory for an array of strings.
 - Implements a **function** to split the string into words based on spaces.
 - Stores each word in a dynamically allocated memory space.
@@ -18,6 +18,5 @@ Enter a sentence: hello world recursion
 ```
 Word 1: hello
 Word 2: world
-Word 3: recursion
 ```
 
