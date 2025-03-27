@@ -15,6 +15,6 @@ Bir daire şu şekilde temsil edilir:
 - **(b)** `Circle` (Daire) adlı bir yapı (struct) oluşturun.
 - **(c)** İki nokta arasındaki mesafeyi parametre olarak alıp döndüren bir fonksiyon yazın.
 - **(d)** Bir noktanın bir dairenin içinde, dışında veya üzerinde olup olmadığını kontrol eden bir fonksiyon yazın. Bu fonksiyon bir nokta ve bir daireyi parametre olarak almalıdır.
-- **(e)** Bir dairenin çevresini parametre olarak alıp döndüren bir fonksiyon yazın.
-- **(f)** Bir dairenin alanını parametre olarak alıp döndüren bir fonksiyon yazın.
+- **(e)** Bir daireyi parametre olarak alıp çevresini döndüren bir fonksiyon yazın.
+- **(f)** Bir daireyi parametre olarak alıp alanını döndüren bir fonksiyon yazın.
 - **(g)** Aynı merkeze sahip iki daire arasındaki alanı döndüren bir fonksiyon yazın.
