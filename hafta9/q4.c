@@ -23,11 +23,12 @@ int main()
 	double ortalama = 0;
 	
 	for(i=0;i<k;i++) {
+	    printf("%d %d \n", array[i], k);
 		ortalama += (double) array[i] / k;
 	}
 	
 	free(array);
 
-	printf("ortalama = %d", ortalama);
+	printf("ortalama = %f", ortalama);
 	return 0;
 }
