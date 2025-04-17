@@ -19,7 +19,15 @@ int main()
 		else array[k]=a;
 		k++;
 	}
-	for(i=0;i<k;i++) printf("%5d",array[i]);
+
+	double ortalama = 0;
+	
+	for(i=0;i<k;i++) {
+		ortalama += (double) array[i] / k;
+	}
+	
 	free(array);
+
+	printf("ortalama = %d", ortalama);
 	return 0;
 }
