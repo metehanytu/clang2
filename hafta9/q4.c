@@ -9,7 +9,7 @@ int main()
 	{
 		scanf("%d",&a);
 		if(a==0) break;
-		if(n>2)
+		if(k>=n)
 		{
 			n++;
 			array=(int *) realloc(array,n*sizeof(int));
