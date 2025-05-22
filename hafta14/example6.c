@@ -3,7 +3,7 @@
 
 int main()
 {
-    int arr[3] = {1, 5, 6};  // Örneğin: n=1 için {n, 5*n, 5*n+1}
+    int arr[3] = {1, 5, 6};
     FILE *fptr;
 
     if ((fptr = fopen("program.bin", "wb")) == NULL) {
@@ -11,7 +11,7 @@ int main()
         exit(1);
     }
 
-    fwrite(arr, sizeof(int), 3, fptr);  // 3 tane int yazılıyor
+    fwrite(arr, sizeof(int), 3, fptr);
     fclose(fptr);
 
     return 0;
